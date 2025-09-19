@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional portfolio showcasing my skills, projects, and experience as a developer">
+    <meta name="keywords" content="developer, portfolio, web development, projects, skills">
+    <meta name="author" content="Your Name">
+
+    <title>P.Ignacio Jr.</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/portfolio-fav-icon.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">My Portfolio</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Percival Ignacio Jr</span>
+                    </h1>
+                    <p class="hero-subtitle">An aspiring Software Engineer</p>
+                    <p class="hero-description">
+                        I'm passionate about learning and building web applications with modern technologies.
+                        Eager to create meaningful user experiences while developing my skills in clean coding
+                        and creative problem-solving.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/percival-ignacio-jr-232603381" class="social-link"
+                            aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Shir-hue" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:percivalignaciojr@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-premium-workspace">
+                    <div class="workspace-3d-container">
+                        <!-- Floating Code Editor -->
+                        <div class="floating-editor">
+                            <div class="editor-window">
+                                <div class="editor-header">
+                                    <div class="window-controls">
+                                        <span class="control close"></span>
+                                        <span class="control minimize"></span>
+                                        <span class="control maximize"></span>
+                                    </div>
+                                    <div class="file-tabs">
+                                        <div class="tab active">portfolio.js</div>
+                                        <div class="tab">style.css</div>
+                                        <div class="tab">index.html</div>
+                                    </div>
+                                </div>
+                                <div class="editor-content">
+                                    <div class="line-numbers">
+                                        <span>1</span>
+                                        <span>2</span>
+                                        <span>3</span>
+                                        <span>4</span>
+                                        <span>5</span>
+                                    </div>
+                                    <div class="code-display">
+                                        <div class="code-line">
+                                            <span class="keyword">const</span> <span class="variable">developer</span>
+                                            <span class="operator">=</span> <span class="string">"Percival"</span><span
+                                                class="punctuation">;</span>
+                                        </div>
+                                        <div class="code-line">
+                                            <span class="variable">developer</span><span
+                                                class="punctuation">.</span><span class="method">build</span><span
+                                                class="punctuation">(</span><span class="string">"amazing
+                                                projects"</span><span class="punctuation">);</span>
+                                        </div>
+                                        <div class="code-line">
+                                            <span class="comment">// Always learning, always growing</span>
+                                        </div>
+                                        <div class="code-line">
+                                            <span class="keyword">return</span> <span
+                                                class="string">"excellence"</span><span class="punctuation">;</span>
+                                        </div>
+                                        <div class="code-line">
+                                            <span class="cursor">|</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Terminal -->
+                        <div class="floating-terminal">
+                            <div class="terminal-header">
+                                <div class="terminal-controls">
+                                    <span class="terminal-dot red"></span>
+                                    <span class="terminal-dot yellow"></span>
+                                    <span class="terminal-dot green"></span>
+                                </div>
+                                <span class="terminal-title">Terminal</span>
+                            </div>
+                            <div class="terminal-body">
+                                <div class="terminal-line">
+                                    <span class="prompt">$</span> <span class="command">npm run dev</span>
+                                </div>
+                                <div class="terminal-line">
+                                    <span class="output">✨ Server running on port 3000</span>
+                                </div>
+                                <div class="terminal-line">
+                                    <span class="prompt">$</span> <span class="cursor-terminal">_</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Browser Window -->
+                        <div class="floating-browser">
+                            <div class="browser-header">
+                                <div class="browser-controls">
+                                    <span class="browser-dot red"></span>
+                                    <span class="browser-dot yellow"></span>
+                                    <span class="browser-dot green"></span>
+                                </div>
+                                <div class="address-bar">
+                                    <span class="url">localhost:3000/portfolio</span>
+                                </div>
+                            </div>
+                            <div class="browser-content">
+                                <div class="mini-portfolio">
+                                    <div class="mini-header">Portfolio</div>
+                                    <div class="mini-sections">
+                                        <div class="mini-section"></div>
+                                        <div class="mini-section active"></div>
+                                        <div class="mini-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Tech Stack -->
+                        <div class="floating-tech-stack">
+                            <div class="tech-orbit">
+                                <div class="tech-planet tech-react">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="tech-planet tech-js">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <div class="tech-planet tech-python">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="tech-planet tech-node">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="tech-planet tech-git">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <div class="tech-planet tech-css">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Achievement Cards -->
+                        <div class="floating-achievements">
+                            <div class="achievement-card card-1">
+                                <div class="achievement-icon">🚀</div>
+                                <div class="achievement-text">Fast Learner</div>
+                            </div>
+                            <div class="achievement-card card-2">
+                                <div class="achievement-icon">💡</div>
+                                <div class="achievement-text">Problem Solver</div>
+                            </div>
+                            <div class="achievement-card card-3">
+                                <div class="achievement-icon">⚡</div>
+                                <div class="achievement-text">Efficient Coder</div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Particles -->
+                        <div class="premium-particles">
+                            <div class="particle particle-1"></div>
+                            <div class="particle particle-2"></div>
+                            <div class="particle particle-3"></div>
+                            <div class="particle particle-4"></div>
+                            <div class="particle particle-5"></div>
+                            <div class="particle particle-6"></div>
+                            <div class="particle particle-7"></div>
+                            <div class="particle particle-8"></div>
+                        </div>
+
+                        <!-- Floating Code Snippets -->
+                        <div class="floating-code-snippets">
+                            <div class="code-snippet snippet-1">
+                                <span class="snippet-tag">&lt;/&gt;</span>
+                            </div>
+                            <div class="code-snippet snippet-2">
+                                <span class="snippet-tag">{ }</span>
+                            </div>
+                            <div class="code-snippet snippet-3">
+                                <span class="snippet-tag">( )</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm an aspiring software engineer with a passion for building web applications that are both
+                        functional and enjoyable to use. I care about writing clean, readable code and creating
+                        great user experiences.
+                    </p>
+                    <p class="about-description">
+                        Currently focused on modern JavaScript frameworks, full-stack development, and always
+                        learning new technologies. I enjoy working on personal projects that challenge me and
+                        help me grow as a developer.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-label">Focus Areas</span>
+                            <span class="highlight-value">Full-Stack Development, Modern JavaScript, UI/UX</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-label">Current Goal</span>
+                            <span class="highlight-value">Building scalable, user-focused applications</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-label">Approach</span>
+                            <span class="highlight-value">Clean code, continuous learning, problem-solving</span>
+                        </div>
+                    </div>
+                    <div class="about-action">
+                        <button class="details-btn" onclick="openDetailsModal()">
+                            <i class="fas fa-user-circle"></i>
+                            My Details
+                        </button>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <div class="about-img-wrapper">
+                        <img src="img/my-photo2.jpeg" alt="Percival Ignacio Jr - Aspiring Software Engineer"
+                            class="about-img">
+                        <div class="photo-overlay">
+                            <button class="details-btn" onclick="openDetailsModal()">
+                                <i class="fas fa-user-circle"></i>
+                                My Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details Modal -->
+    <div id="detailsModal" class="details-modal">
+        <div class="modal-overlay" onclick="closeDetailsModal()"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Personal Details</h2>
+                <button class="modal-close" onclick="closeDetailsModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="details-grid">
+                    <!-- Basic Information -->
+                    <div class="detail-section">
+                        <h3><i class="fas fa-info-circle"></i> Basic Information</h3>
+                        <div class="detail-item">
+                            <span class="detail-label">Full Name:</span>
+                            <span class="detail-value">Percival Ignacio Jr.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Age:</span>
+                            <span class="detail-value">20 years old</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Location:</span>
+                            <span class="detail-value">Dubai, United Arab Emirates</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email:</span>
+                            <span class="detail-value">percivalignaciojr@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Phone:</span>
+                            <span class="detail-value">+971 52 589 2142</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Resume:</span>
+                            <span class="detail-value">
+                                <a href="https://drive.google.com/file/d/1zibAgWALdeE2-aJSgxHot6buOsR4cT4m/view?usp=drive_link"
+                                    target="_blank" class="resume-link">
+                                    <i class="fas fa-file-pdf"></i> Review my Resume
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="detail-section">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="detail-item">
+                            <span class="detail-label">Degree:</span>
+                            <span class="detail-value">Bachelor's Degree in Computer Science</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">University:</span>
+                            <span class="detail-value">University of Roehampton, England</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Year:</span>
+                            <span class="detail-value">2025 - 2026</span>
+                        </div>
+
+                        <div class="detail-item"
+                            style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(59, 130, 246, 0.1);">
+                            <span class="detail-label">Degree:</span>
+                            <span class="detail-value">Higher Diploma in Software Engineering</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">University:</span>
+                            <span class="detail-value">Lithan Academy, Singapore</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Year:</span>
+                            <span class="detail-value">2024 - 2025</span>
+                        </div>
+                    </div>
+
+                    <!-- Languages -->
+                    <div class="detail-section">
+                        <h3><i class="fas fa-language"></i> Languages</h3>
+                        <div class="language-items">
+                            <div class="language-item">
+                                <span class="language-name">English</span>
+                                <div class="proficiency-bar">
+                                    <div class="proficiency-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="proficiency-level">Fluent</span>
+                            </div>
+                            <div class="language-item">
+                                <span class="language-name">Filipino</span>
+                                <div class="proficiency-bar">
+                                    <div class="proficiency-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="proficiency-level">Native</span>
+                            </div>
+                            <div class="language-item">
+                                <span class="language-name">Japanese</span>
+                                <div class="proficiency-bar">
+                                    <div class="proficiency-fill" style="width: 40%"></div>
+                                </div>
+                                <span class="proficiency-level">Basic</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="detail-section">
+                        <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                        <div class="cert-items">
+                            <div class="cert-item">
+                                <div class="cert-icon">🤖</div>
+                                <div class="cert-info">
+                                    <span class="cert-name">Generative A.I</span>
+                                    <span class="cert-issuer">Professional Certification</span>
+                                    <span class="cert-date">2025</span>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <div class="cert-icon">⚡</div>
+                                <div class="cert-info">
+                                    <span class="cert-name">Agile Project Management</span>
+                                    <span class="cert-issuer">Professional Certification</span>
+                                    <span class="cert-date">2025</span>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <div class="cert-icon">💼</div>
+                                <div class="cert-info">
+                                    <span class="cert-name">Microsoft Office Suite</span>
+                                    <span class="cert-issuer">Microsoft</span>
+                                    <span class="cert-date">2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interests & Hobbies -->
+                    <div class="detail-section">
+                        <h3><i class="fas fa-heart"></i> Interests & Hobbies</h3>
+                        <div class="hobby-tags">
+                            <span class="hobby-tag">🎮 Gaming</span>
+                            <span class="hobby-tag">📚 Reading</span>
+                            <span class="hobby-tag">🎵 Music</span>
+                            <span class="hobby-tag">🏃‍♂️ Jogging</span>
+                            <span class="hobby-tag">📷 Photography</span>
+                            <span class="hobby-tag">🎨 Digital Art</span>
+                            <span class="hobby-tag">🚀 Space Exploration</span>
+                            <span class="hobby-tag">🧩 Problem Solving</span>
+                        </div>
+                    </div>
+
+                    <!-- Fun Facts -->
+                    <div class="detail-section">
+                        <h3><i class="fas fa-lightbulb"></i> Fun Facts</h3>
+                        <div class="fun-facts-list">
+                            <div class="fun-fact">
+                                <span class="fact-emoji">🌙</span>
+                                <span class="fact-text">I do my best coding at midnight</span>
+                            </div>
+                            <div class="fun-fact">
+                                <span class="fact-emoji">☕</span>
+                                <span class="fact-text">Coffee is my programming fuel</span>
+                            </div>
+                            <div class="fun-fact">
+                                <span class="fact-emoji">⚡</span>
+                                <span class="fact-text">I can debug code faster when deadline is near</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Frameworks</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>Spring Boot</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cube"></i>
+                            <span>Maven</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Spring Security</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-exchange-alt"></i>
+                            <span>REST API</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">System Integrator</h3>
+                        <h4 class="timeline-company">Go Sales Funnels CRM</h4>
+                        <p class="timeline-description">
+                            Assisting with CRM system integrations and learning to connect different software platforms.
+                            Supporting API testing and basic data mapping tasks.
+                        </p>
+                        <ul class="timeline-skills">
+                            <li>API Testing</li>
+                            <li>CRM Basics</li>
+                            <li>Data Mapping</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - 2026 present</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Bachelor's Degree in Computer Science
+                        </h3>
+                        <h4 class="timeline-company">University of Roehamption</h4>
+                        <p class="timeline-description">
+                            Internship program while studying, focusing on learning a broader range of software
+                            engineering principles and
+                            gaining hands-on experience with programming projects.
+                        </p>
+                        <ul class="timeline-skills">
+                            <li>Python</li>
+                            <li>Data Analysis</li>
+                            <li>Machine Learning</li>
+                            <li>Security Fundamentals</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - 2025</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Higher Diploma in Software Engineering</h3>
+                        <h4 class="timeline-company">Lithan Academy</h4>
+                        <p class="timeline-description">
+                            A comprehensive software engineering program covering full-stack development, AI
+                            integration, and enterprise applications. Completed capstone project and gained hands-on
+                            experience with modern development practices.
+                        </p>
+                        <ul class="timeline-skills">
+                            <li>Full-Stack Development</li>
+                            <li>Database Design</li>
+                            <li>Generative AI</li>
+                            <li>Agile Methodology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-title">Let's connect</h3>
+                    <p class="contact-description">
+                        I'm always open to new opportunities.
+                        Whether you have a question or just want to say hi, feel free to reach me out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>percivalignaciojr@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+971 52 589 2142</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Dubai, UAE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Percival Ignacio Jr.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/percival-ignacio-jr-232603381" class="social-link"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Shir-hue" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:percivalignaciojr@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/scroll-animations.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

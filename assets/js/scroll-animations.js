@@ -41,6 +41,8 @@ document.addEventListener('DOMContentLoaded', function() {
         '#projects .project-card',
         '#experience',
         '#experience .timeline-item',
+        '#education',
+        '#education .timeline-item',
         '#contact',
         '#contact .contact-content'
     ].join(','));
@@ -85,8 +87,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Special handling for timeline items with alternating animations
-    const timelineItems = document.querySelectorAll('#experience .timeline-item');
-    timelineItems.forEach((item, index) => {
+    const experienceTimelineItems = document.querySelectorAll('#experience .timeline-item');
+    experienceTimelineItems.forEach((item, index) => {
+        // Add alternating fade directions
+        if (index % 2 === 0) {
+            item.classList.add('fade-left');
+        } else {
+            item.classList.add('fade-right');
+        }
+    });
+
+    // Special handling for education timeline items with alternating animations
+    const educationTimelineItems = document.querySelectorAll('#education .timeline-item');
+    educationTimelineItems.forEach((item, index) => {
         // Add alternating fade directions
         if (index % 2 === 0) {
             item.classList.add('fade-left');

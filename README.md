@@ -48,7 +48,6 @@ portfolio/
 ├── assets/
 │   ├── css/
 │   │   ├── style.css       # Main styles
-│   │   └── enhancements.css # Extra visual polish
 │   ├── js/
 │   │   ├── script.js       # Main functionality
 │   │   ├── scroll-animations.js # Scroll effects

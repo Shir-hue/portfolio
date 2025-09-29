@@ -230,11 +230,11 @@ function initProjectFilters() {
 // Contact Form with EmailJS
 // ===============================
 function initContactForm() {
-    // EmailJS Configuration - using environment variables
+    // EmailJS Configuration 
     const emailjsConfig = {
-        publicKey: window.EMAILJS_PUBLIC_KEY,
-        serviceId: window.EMAILJS_SERVICE_ID, 
-        templateId: window.EMAILJS_TEMPLATE_ID
+        publicKey: atob("REpEeW42NTV1R2k3bjFlV0U="),
+        serviceId: atob("c2VydmljZV84amw3Mmhl"), 
+        templateId: atob("dGVtcGxhdGVfbHo0OHdkMg==")
     };
     
     if (!emailjsConfig.publicKey || !emailjsConfig.serviceId || !emailjsConfig.templateId) {
